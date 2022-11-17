@@ -1,0 +1,89 @@
+.entry-container{
+    width: 80vw;
+    height: fit-content;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.511);
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 34px;
+}
+.entry-header{
+    background: #FFFFFF;
+    border-radius: 28px 28px 0px 0px;
+    height: 100px;
+}
+.header-content{
+    position: relative;
+    left: 20px;
+    top: 8px;
+    display: flex;  
+    max-width: 77vw;
+    justify-content: space-between;
+}
+.name, .chembleid, .cancer, .pubchemid, .structures, .iupacname, .molecularformula, .synonyms, .molecularweight, .summarychebi,
+.cp, .pd, .color, .bp, .solubility{
+    display: flex;
+    width: fit-content;
+}
+.structures{
+    justify-content: space-between;
+    width: 50vw;
+}
+.data, .cancer{
+    font-size: 24px;
+    color: black;
+    font-weight: 300;
+    padding-left: 10px;
+    width: fit-content;
+}
+.bookmark-icon{
+    height: 70px;
+    width: 70px;
+    color: #fecf02;
+}
+.entry-body{
+    display: block;
+}
+.top{
+    padding-top: 10px;
+}
+.minus-top{
+    position: relative;
+    top: -5px;
+}
+.body-heading{
+    color: white;
+    position: relative;
+    left: 20px;
+}
+.body-data{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    position: relative;
+    left: 25px;
+    width: fit-content;
+    max-width: 60vw;
+    height: fit-content;
+}
+.structure-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.references{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+.link-references{
+    text-decoration: underline;
+    color: white;
+    font-size: 24px;
+}
+.link-references:hover{
+    color: #fecf02;
+}
